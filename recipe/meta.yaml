@@ -1,4 +1,4 @@
-{% set version = "6.1" %}
+{% set version = "5.9" %}
 
 package:
   name: ncurses
@@ -7,7 +7,7 @@ package:
 source:
   fn: ncurses-{{ version }}.tar.gz
   url: http://ftp.gnu.org/pub/gnu/ncurses/ncurses-{{ version }}.tar.gz
-  md5: 98c889aaf8d23910d2b92d65be2e737a
+  #md5: 98c889aaf8d23910d2b92d65be2e737a
   patches:
     # http://lists.gnu.org/archive/html/bug-ncurses/2015-01/msg00016.html
     - ncurses-5.9-gcc-5.patch
